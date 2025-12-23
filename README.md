@@ -18,3 +18,12 @@ View your app in AI Studio: https://ai.studio/apps/drive/1Ep9Fg6ZpyKme_T4crYqgxM
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Deploying to Netlify
+
+To deploy this application to Netlify, you will need to configure the following build settings:
+
+-   **Build command:** `npm run build`
+-   **Publish directory:** `dist`
+
+Additionally, you must set the `GEMINI_API_KEY` environment variable in the Netlify UI under **Site settings > Build & deploy > Environment**.
