@@ -27,3 +27,5 @@ To deploy this application to Netlify, you will need to configure the following 
 -   **Publish directory:** `dist`
 
 Additionally, you must set the `GEMINI_API_KEY` environment variable in the Netlify UI under **Site settings > Build & deploy > Environment**.
+
+**Note:** The build process will fail if the `GEMINI_API_KEY` is not set. This is a deliberate measure to prevent a broken deployment.
